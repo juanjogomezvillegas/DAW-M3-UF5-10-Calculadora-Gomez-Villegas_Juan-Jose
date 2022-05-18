@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+      <Button id="btn1" fx:id="btn1" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="262.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="1" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn2" fx:id="btn2" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="262.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="2" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn3" fx:id="btn3" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="262.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="3" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn4" fx:id="btn4" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="212.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="4" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn5" fx:id="btn5" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="212.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="5" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn6" fx:id="btn6" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="212.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="6" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn7" fx:id="btn7" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="162.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="7" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn8" fx:id="btn8" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="162.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="8" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn9" fx:id="btn9" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="162.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="9" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btn0" fx:id="btn0" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="312.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="140.0" styleClass="numeros" text="0" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnPunt" fx:id="btnPunt" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="312.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="numeros" text="." textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnSuma" fx:id="btnSuma" alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="262.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="+" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnResta" fx:id="btnResta" alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="212.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="-" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnMultiplicacio" fx:id="btnMultiplicacio" alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="162.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="x" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnDivisio" fx:id="btnDivisio" alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="113.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="/" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnModul" fx:id="btnModul" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="113.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="\%" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnIgual" fx:id="btnIgual" alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="312.0" mnemonicParsing="false" onAction="#EscriuPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="igual" text="=" textAlignment="CENTER" textFill="#d9d9d9" />
+      <TextField id="txtOperacio" fx:id="txtOperacio" alignment="CENTER" editable="false" layoutX="8.0" layoutY="8.0" prefHeight="20.0" prefWidth="280.0">
+         <styleClass>
+            <String fx:value="textMostrar" />
+            <String fx:value="txtoperacio" />
+         </styleClass>
+      </TextField>
+      <TextField id="txtResultat" fx:id="txtResultat" alignment="CENTER" editable="false" layoutX="8.0" layoutY="35.0" prefHeight="70.0" prefWidth="280.0">
+         <styleClass>
+            <String fx:value="textMostrar" />
+            <String fx:value="txtresultat" />
+         </styleClass>
+      </TextField>
+      <Button id="btnClear" fx:id="btnClear" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="113.0" mnemonicParsing="false" onAction="#BorrarPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="AC" textAlignment="CENTER" textFill="#d9d9d9" />
+      <Button id="btnDelete" fx:id="btnDelete" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="113.0" mnemonicParsing="false" onAction="#BorrarPantallaAction" onKeyPressed="#keyEvent" prefHeight="50.0" prefWidth="70.0" styleClass="operacions" text="DEL" textAlignment="CENTER" textFill="#d9d9d9" />
+    </children>
+</AnchorPane>

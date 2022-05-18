@@ -1,0 +1,71 @@
+
+/*
+MIT License
+
+Copyright (c) 2022 Juan José Gómez Villegas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+#AnchorPane {
+    -fx-background-color: #1E1E20;
+}
+
+TextField {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #1E1E20;
+    -fx-background-color: #D9D9D9;
+    -fx-color: #1E1E20;
+}
+
+TextField.txtoperacio {
+    -fx-font: 15px 'Arial';
+}
+
+TextField.txtresultat {
+    -fx-font: 30px 'Arial';
+}
+
+Button.numeros {
+    -fx-background-color: #212121;
+    -fx-color: #D9D9D9;
+    -fx-font: 20px 'Arial';
+}
+
+Button.operacions {
+    -fx-background-color: #292A2B;
+    -fx-color: #D9D9D9;
+    -fx-font: 20px 'Arial';
+}
+
+Button.numeros:hover, Button.operacions:hover {
+    -fx-background-color: rgba(33, 33, 33, 0.5);
+}
+
+Button.igual {
+    -fx-background-color: #1510F0;
+    -fx-color: #D9D9D9;
+    -fx-font: 20px 'Arial';
+}
+
+Button.igual:hover {
+    -fx-background-color: rgba(21, 16, 240, 0.5);
+}
