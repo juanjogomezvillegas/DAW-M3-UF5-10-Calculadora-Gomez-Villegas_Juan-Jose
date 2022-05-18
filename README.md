@@ -1,6 +1,6 @@
 # DAW-M3-UF5-10-Calculadora-Gomez-Villegas_Juan-Jose
 
-
+![Calculator window](https://user-images.githubusercontent.com/83291394/169139617-fec8714c-23a4-4caf-84a1-01a9295887db.png)
 
 ## Descripció de l'Activitat
 
